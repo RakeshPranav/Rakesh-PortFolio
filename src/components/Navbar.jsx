@@ -22,7 +22,7 @@ export default function Navbar() {
       <nav
         className={`fixed left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-[cubic-bezier(0.25,1,0.5,1)] flex items-center ${
           scrolled
-            ? "top-4 w-[90%] max-w-[800px] h-14 px-6 md:px-8 bg-slate-900/70 backdrop-blur-xl border border-slate-700/60 shadow-2xl shadow-black/50 rounded-full"
+            ? "top-4 w-[90%] max-w-[800px] h-14 px-6 md:px-8 bg-white/5 backdrop-blur-xl border border-white/10 shadow-2xl shadow-black/50 rounded-full"
             : "top-0 w-full max-w-6xl h-24 px-6 bg-transparent border-transparent rounded-none"
         }`}
       >

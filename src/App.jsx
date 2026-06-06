@@ -35,15 +35,15 @@ export default function App() {
       <Cursor />
       <div className="fixed inset-0 z-[-1] bg-slate-950 overflow-hidden pointer-events-none">
         <LightPillar
-          topColor="#5c5097"
-          bottomColor="#4a906a"
+          topColor="#928ea2"
+          bottomColor="#417664"
           intensity={1.2}
-          rotationSpeed={0.5}
+          rotationSpeed={0.3}
           glowAmount={0.002}
-          pillarWidth={3.4}
+          pillarWidth={3}
           pillarHeight={0.3}
-          noiseIntensity={1}
-          pillarRotation={49}
+          noiseIntensity={1.5}
+          pillarRotation={57}
           interactive={false}
           mixBlendMode="screen"
           quality="high"
